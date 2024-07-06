@@ -28,7 +28,7 @@ gaps:
 focus_borders:
   active:
     enabled: true
-    color: "#a5adcb"
+    color: "#8aadf4"
 
   inactive:
     enabled: true
@@ -38,7 +38,7 @@ bar:
   height: "30"
   position: "top"
   # opacity: 1
-  background: "#24273a"
+  background: "#1a1b26"
   foreground: "#cad3f5"
   font_family: "CaskaydiaCove Nerd Font"
   font_size: "17px"
@@ -47,7 +47,7 @@ bar:
   offset_y: "10"
   border_radius: "6"
   border_width: "1px"
-  border_color: "#a5adcb"
+  border_color: "#8aadf4"
   # Separator between components within the bar. `label` is used for each section
   # of the bar unless `label_{left,center,right}` is explictly set, in which case
   # they are preferred over default.
@@ -55,11 +55,11 @@ bar:
     label: "  "
   components_left:
     - type: "workspaces"
-      focused_workspace_background: "#24273a"
+      focused_workspace_background: "#1a1b26"
       focused_workspace_foreground: "#a6da95"
-      displayed_workspace_background: "#24273a"
+      displayed_workspace_background: "#1a1b26"
       displayed_workspace_foreground: "#f5a97f"
-      default_workspace_background: "#24273a"
+      default_workspace_background: "#1a1b26"
       default_workspace_foreground: "#5b6078"
   # components_center:
     # - type: "window title"
@@ -144,7 +144,7 @@ workspaces:
     keep_alive: true
     # bind_to_monitor: 2
   - name: "4"
-    display_name: "󰊻 "
+    display_name: " "
     keep_alive: true
     bind_to_monitor: 1
   - name: "5"
