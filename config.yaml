@@ -28,7 +28,7 @@ gaps:
 focus_borders:
   active:
     enabled: true
-    color: "#f7768e"
+    color: "#a9b1dc"
 
   inactive:
     enabled: true
@@ -41,13 +41,13 @@ bar:
   background: "#1a1b26"
   foreground: "#cad3f5"
   font_family: "CaskaydiaCove Nerd Font"
-  font_size: "16px"
+  font_size: "15px"
   padding: "0px 3px"
   offset_x: "14"
   offset_y: "8"
   border_radius: "6"
   border_width: "1px"
-  border_color: "#c0caf5"
+  border_color: "#363a4f"
   # Separator between components within the bar. `label` is used for each section
   # of the bar unless `label_{left,center,right}` is explictly set, in which case
   # they are preferred over default.
