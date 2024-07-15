@@ -18,21 +18,21 @@ general:
 
 gaps:
   # Gap between adjacent windows.
-  inner_gap: "12px"
+  inner_gap: "14px"
 
   # Gap between windows and the screen edge.
-  outer_gap: "12px"
+  outer_gap: "14px"
 
 # Highlight active/inactive windows with a colored border.
 # ** Exclusive to Windows 11 due to API limitations.
 focus_borders:
   active:
     enabled: true
-    color: "#a9b1dc"
+    color: "#7aa2f7"
 
   inactive:
     enabled: true
-    color: "#363a4f"
+    color: "#414868"
 
 bar:
   height: "28"
@@ -43,7 +43,7 @@ bar:
   font_family: "CaskaydiaCove Nerd Font"
   font_size: "15px"
   padding: "0px 3px"
-  offset_x: "14"
+  offset_x: "16"
   offset_y: "8"
   border_radius: "6"
   border_width: "1px"
@@ -132,43 +132,43 @@ bar:
 
 workspaces:
   - name: "1"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "2"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "3"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "4"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     bind_to_monitor: 1
   - name: "5"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     bind_to_monitor: 1
   - name: "6"
-    display_name: "󰨞 "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "7"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "8"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "9"
-    display_name: " "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
   - name: "0"
-    display_name: "󰅶 "
+    display_name: " "
     keep_alive: true
     # bind_to_monitor: 2
 
